@@ -1,17 +1,4 @@
-variable "create" {
-  description = "Whether to create the application. If set to false, the application must exist and specified with var.object_id."
-  type        = bool
-  default     = false
-}
-
-variable "object_id" {
-  description = "The object id of the application. If create is set to false, this must be specified."
-  type        = string
-  default     = null
-}
-
 variable "config" {
-  description = "The application config."
   type = object({
     display_name                   = optional(string, null)
     fallback_public_client_enabled = optional(bool, false)
@@ -43,9 +30,22 @@ variable "config" {
     })), [])
     required_resource_access = optional(map(list(string)), {})
   })
+  description = "The application config."
 
   validation {
     condition     = !(length(var.config.permission_scopes) > 0 && (var.config.identifier_uri != "" && var.config.domain_name != ""))
     error_message = "identifier_uri or domain_name must be set if permission_scopes are defined."
   }
+}
+
+variable "create" {
+  type        = bool
+  default     = false
+  description = "Whether to create the application. If set to false, the application must exist and specified with var.object_id."
+}
+
+variable "object_id" {
+  type        = string
+  default     = null
+  description = "The object id of the application. If create is set to false, this must be specified."
 }

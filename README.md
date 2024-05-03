@@ -44,9 +44,9 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_admin_consent_required"></a> [admin\_consent\_required](#output\_admin\_consent\_required) | n/a |
-| <a name="output_application_id"></a> [application\_id](#output\_application\_id) | n/a |
-| <a name="output_display_name"></a> [display\_name](#output\_display\_name) | n/a |
-| <a name="output_exposed_api_permissions"></a> [exposed\_api\_permissions](#output\_exposed\_api\_permissions) | n/a |
-| <a name="output_object_id"></a> [object\_id](#output\_object\_id) | n/a |
+| <a name="output_admin_consent_required"></a> [admin\_consent\_required](#output\_admin\_consent\_required) | Whether admin consent is required. |
+| <a name="output_application_id"></a> [application\_id](#output\_application\_id) | The application (client) ID of the application. |
+| <a name="output_display_name"></a> [display\_name](#output\_display\_name) | The display name of the application. |
+| <a name="output_exposed_api_permissions"></a> [exposed\_api\_permissions](#output\_exposed\_api\_permissions) | The exposed API permissions of the application. |
+| <a name="output_object_id"></a> [object\_id](#output\_object\_id) | The object ID of the application. |
 <!-- END_TF_DOCS -->
