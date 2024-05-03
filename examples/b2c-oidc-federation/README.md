@@ -1,0 +1,4 @@
+## Simple OIDC app registration
+
+
+
