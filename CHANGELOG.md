@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/Schumann-IT/terraform-azuread-b2c-app-registration/tree/HEAD)
+## [v0.1.0](https://github.com/Schumann-IT/terraform-azuread-b2c-app-registration/tree/v0.1.0) (2024-05-03)
 
 **Merged pull requests:**
 
