@@ -5,14 +5,18 @@ This module manages the configuration of an app-registration for Azure AD B2C di
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.4.0, < 2.0.0 |
+| <a name="requirement_azuread"></a> [azuread](#requirement\_azuread) | >= 2.38.0 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.0.0, < 4.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azuread"></a> [azuread](#provider\_azuread) | n/a |
-| <a name="provider_random"></a> [random](#provider\_random) | n/a |
+| <a name="provider_azuread"></a> [azuread](#provider\_azuread) | >= 2.38.0 |
+| <a name="provider_random"></a> [random](#provider\_random) | >= 3.0.0, < 4.0.0 |
 
 ## Modules
 
